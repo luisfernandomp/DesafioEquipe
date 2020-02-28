@@ -46,6 +46,13 @@ main{
     background-color: #2E2E30;
 }
 
+.title{
+    margin-left: 300px;
+    padding-left: 100px;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
 .container{
 
     width: 1366px;
