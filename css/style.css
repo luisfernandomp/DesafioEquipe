@@ -45,3 +45,45 @@ main{
     padding: 10px 35px;
     background-color: #2E2E30;
 }
+
+.container{
+
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topo{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 500px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.menu a:hover{
+    color: #6eb6dc;
+}
